@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+:root{
+    --dark:#350363;
+    --background:#ffe9db;
+}
+html{
+font-size: 67.5%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #350363;  
+}
+main{
+    width: 30vw;
+    text-align: center;
+    background-color: white;
+    border: solid #350363 2px;
+    border-width: 0.8rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #1f2933;
+}
+.opening-page img{
+    width:25rem ;  
+}
+.opening-page h2{
+    font-size: 2.5rem;
+}
+.gamemode h3{
+    font-size: 1.8rem;
+}
+.Attempts-mode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2px;
+    margin-top: 2rem;
+}
+.Attempts-mode button{
+    padding: 0.3rem;
+   min-width: 28rem;
+   height: 5rem;
+   background-color: #350363;
+   color: #ffe9db;
+   background-image: linear-gradient(92.88deg,#455eb5 9.16%,#5643cc 43.89%,#673fd7 64.72%);
+   border-radius: 0.8rem;
+   cursor: pointer;
+   font-size: 1.8rem;
+   border-style:none;
+   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+   transition: all 0.5s;
+   user-select: none;
+   -webkit-user-select: none;
+   text-transform: capitalize;
+} 
+
+.btnmrg{
+    margin-top: 1rem;
+}
+button:last-child{
+    background: #350363;
+}
+
+.game-area{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+   padding-top: 2rem;
+   padding-bottom: 3rem;
+   padding-left:2rem ;
+   padding-right:2rem;
+}
+.Regame button{
+    padding: 0.3rem;
+    min-width: 15rem;
+    height: 5rem;
+    color: #ffe9db;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-style:none;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    text-transform: capitalize;   
+}
+.numberinput-guess h3{
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+.inputbox{
+    width: 20rem;
+    padding: 1rem 0;
+    text-align: center;
+    border: 0.3rem solid lightgray;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+
+}
+.numberofattempts{
+    font-size: 1.8rem;
+}
+span{
+    color: red;
+    margin-top:0.3rem;
+    
+}
+.inputbox{
+    font-size: 1.8rem;
+}
+button:hover{
+    background-color: #0c1022;
+}
+.hover:active{
+    background-color: #350363;
+}
