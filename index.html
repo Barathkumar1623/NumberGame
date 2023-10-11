@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../jsproject/game.css">
+</head>
+
+<body onload="maths()">
+    <main id="mainforcolor">
+        <div id="opening-page" class="opening-page">
+            <h2>Guess The Random Number Between 1-100</h2>
+            <img src="../jsproject/5210980.jpg" alt="Guessing Image">
+            <section class="gamemode">
+                 <h3>Select Game Mode</h3>
+                <div class="Attempts-mode">
+                    <button onclick="easymode()"  class="hover">Easy Level 10 Attempts</button>
+                    <button onclick="hardmode()" class="btnmrg">Hard Level 5 Attempts</button>
+                </div>
+            </section>
+        </div>
+
+        <!-- our GAme Area Arrive -->
+
+
+        <div id="game-area" class="game-area">
+            <div id="regame" class="Regame">
+                <button onclick="backtonewgame()">New Game</button>
+            </div>
+            <section class="numberinput-guess">
+                <h3 class="fontsize" id="textupdate">Guess The Number</h3>
+                <input class="inputbox" type="number" id="input" placeholder="Enter Your Guess" min="1" max="100" onchange="comparenum()">
+            </section>
+
+            <section class="numberofattempts-main">
+                <div class="numberofattempts">
+                    <p>Number of Previous Attempts</p>
+                    <span id="Attemptsno">0</span>
+                </div>
+
+                <div class="numberofattempts">
+                    <p class="Attempts-counter">Number of Previous Guesses </p>
+                    <span id="guesses" class="span">0</span>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../jsproject/game.js"></script>
+</body>
+
+</html>
+
+
