@@ -90,7 +90,7 @@ button:last-child{
     border-radius: 0.8rem;
     cursor: pointer;
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-style:none;
     text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
     transition: all 0.5s;
